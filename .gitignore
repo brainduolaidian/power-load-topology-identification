@@ -1,0 +1,79 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+profile_default/
+ipython_config.py
+
+# ========================================
+# IDE & Editors
+# ========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# OS
+# ========================================
+Thumbs.db
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# ========================================
+# Environment & Secrets
+# ========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# ========================================
+# Caching & Temporary
+# ========================================
+.matplotlib/
+*.log
+*.tmp
+*.bak
+*~
+
+# Scratch / temporary scripts
+_*.py
+_*.txt
+_migrate_data.py
+_fix_plaid.py
+
+# ========================================
+# Logs & Databases
+# ========================================
+*.sqlite3
+*.db

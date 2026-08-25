@@ -1,0 +1,10 @@
+{
+  "n_areas": 3,
+  "n_rails": 15,
+  "n_users": 194,
+  "n_days": 30,
+  "interval_min": 15,
+  "n_timepoints": 2880,
+  "voltage_base": 230.0,
+  "freq": 50.0
+}
