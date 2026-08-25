@@ -56,6 +56,7 @@ GitHub项目展示/
 │       ├── q2_topology_analysis.png    # 电压评分 + 置信度分布
 │       └── q2_area_accuracy.png        # 分台区准确率
 │
+├── demo.py                           # 一键演示脚本
 ├── requirements.txt
 ├── VERSION_NOTES.md
 └── .gitignore
@@ -134,6 +135,22 @@ GitHub项目展示/
 ```
 
 ## 快速开始
+
+### 一键演示（推荐）
+
+```bash
+pip install -r requirements.txt
+python demo.py
+```
+
+一键运行完整流程：数据生成 → 负荷辨识 → 拓扑识别 → 汇总报告。
+
+可选参数：
+- `python demo.py --skip-data` — 跳过数据生成，使用已有数据
+- `python demo.py --q1-only` — 仅运行负荷辨识
+- `python demo.py --q2-only` — 仅运行拓扑识别
+
+### 分步运行
 
 ```bash
 # 安装依赖

@@ -56,6 +56,7 @@ GitHub项目展示/
 │       ├── q2_topology_analysis.png    # Voltage score + confidence distribution
 │       └── q2_area_accuracy.png        # Per-area accuracy
 │
+├── demo.py                           # One-click demo script
 ├── requirements.txt
 ├── VERSION_NOTES.md
 └── .gitignore
@@ -134,6 +135,22 @@ Confidence distribution:
 ```
 
 ## Quick Start
+
+### One-click Demo (Recommended)
+
+```bash
+pip install -r requirements.txt
+python demo.py
+```
+
+This runs the full pipeline: data generation → load identification → topology identification → summary report.
+
+Options:
+- `python demo.py --skip-data` — skip data generation, use existing data
+- `python demo.py --q1-only` — run load identification only
+- `python demo.py --q2-only` — run topology identification only
+
+### Step-by-step
 
 ```bash
 # Install dependencies

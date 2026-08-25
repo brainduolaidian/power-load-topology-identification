@@ -71,9 +71,20 @@ _*.py
 _*.txt
 _migrate_data.py
 _fix_plaid.py
+_download_*.py
+
+# Push batch temp files
+_push_batch*.json
 
 # ========================================
 # Logs & Databases
 # ========================================
 *.sqlite3
 *.db
+
+# ========================================
+# Claude / AI assistants
+# ========================================
+.claude/
+.aider*
+.cursor/
